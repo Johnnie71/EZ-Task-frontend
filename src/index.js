@@ -23,8 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		   taskDiv.dataset.id = task.id
 		   const taskP = document.createElement('p')
 		   taskP.innerHTML =`
-		   <h3>${task.subject}<button data-id="${task.id}" class="delete">&times;</button></h3>
+		   <h3>${task.subject}</h3>
 		   <p>${task.content}</p>
+		   <button data-id="${task.id}" class="delete">&times;</button>
 		   `
 		   	taskDiv.appendChild(taskP)
 			taskUl.appendChild(taskDiv)
@@ -54,6 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			   fetch(baseUrl, options)
 			   .then(resp => resp.json())
 			   .then(task => {addTaskToDom(task)})
+			    document.querySelector('.task-form').reset()
 		
 	   })
 

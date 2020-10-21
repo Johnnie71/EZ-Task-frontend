@@ -69,11 +69,10 @@ body {
   .task-div {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 100%;
-    background-color: rgba(243, 237, 237, 0.425);
-    padding: 15pix;
-    margin: 20pix;
-    box-shadow: 0 4px 8px 0 rgb(142 0 255 / 76%);
+    width: 50%;
+    background-color: rgba(238, 209, 44, 0.932);
+    padding: 10pix;
+    margin: 50pix;
     text-align: center;
   }
 
@@ -81,19 +80,21 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding: 25px;
+    padding: 100px;
   }
 
   .delete{
-    background-color: #f2f2f2;
+    background-color: none;
     border: none;
-    border-radius: 15px;
-    padding: 6px 15px;
+    border-radius: 50px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 10px;
     margin: 4px 2px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgb(142 0 255 / 76%);
+  }
+
+  .ez-task {
+    text-align: center;
+    font-size: 65px;
   }
