@@ -1,19 +1,40 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+"tasks": [
+  {
+  "id": 1,
+  "subject": "School",
+  "content": "school sucks",
+  "date": 336912,
+  "group": "Dont worry about it",
+  "user_id": 13,
+  "category_id": 66
+  },
+  {
+  "id": 2,
+  "subject": "Work meeting",
+  "content": "Algorithms",
+  "date": 345104,
+  "group": "important",
+  "user_id": 13,
+  "category_id": 71
+  },
+  {
+  "id": 3,
+  "subject": "Cohort Meeting",
+  "content": "Code Hort",
+  "date": 1655824,
+  "group": "Important",
+  "user_id": 13,
+  "category_id": 69
+  },
+  {
+  "id": 4,
+  "subject": "doctor appt",
+  "content": "covid vaccine",
+  "date": 1365008,
+  "group": "Important",
+  "user_id": 13,
+  "category_id": 72
   }
+  ]
 }

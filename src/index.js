@@ -38,19 +38,55 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			   const subject = form.subject.value
 			   const content = form.content.value 
-		   })
-		
-	   }
+			   
+			   const newNote = {subject: subject, content: content}
+			   
 
+			   const options = {
+				   method: "POST",
+				   headers: {
+					   "content-type": "application/json",
+					   "accept": "application/json"
+				   },
+				   body: JSON.stringify(newNote)
+			   }
+
+			   fetch(baseUrl, options)
+			   .then(resp => resp.json())
+			   .then(task => {addTaskToDom(task)})
+		
+	   })
+
+	}	
+		   const clickHandler = () => {
+			   document.addEventListener('click', e => {
+				if(e.target.matches('.delete')){
+					let button = e.target
+					let taskId = button.dataset.id
+					
+
+					
+					
+					let options = {
+						method: "DELETE"
+					}
+
+					fetch(baseUrl + taskId, options)
+					.then(resp => resp.json())
+					.then(_data => {
+						e.target.closest('div').remove()
+					})
+				}
+			   })
+		   }
 
 
 	   
-
+		clickHandler();
 		submitHandler();
 	    getTasks();
 
 
-	
 })
 
 

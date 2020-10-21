@@ -1,9 +1,10 @@
 body {
     font-family: Helvetica;
 }
-{
-    box-sizing: border-box;
-}
+
+    /* {
+        box-sizing: border-box;
+    } */
   input {
       border-radius: 2px;
       height: 30px;
