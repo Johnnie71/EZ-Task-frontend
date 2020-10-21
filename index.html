@@ -1,21 +1,37 @@
  <!DOCTYPE html>
  <html lang="en">
  <head>
+    <style>
+        body  {
+          background-image: url("https://c1.wallpaperflare.com/preview/157/959/581/wood-board-structure-world.jpg");
+          background-color: #cccccc;
+        }
+    </style>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>EZ-Task </title>
-     <script type="text/javascript" src="index.js" charset="utf-8"></script>
+     <link rel="stylesheet" href="./css/styles.css">
+     <script type="text/javascript" src="./src/index.js" charset="utf-8"></script>
  </head>
  <body>
 
     <h1>EZ TASK </h1>
     <form>
-        <input id="add-list" type="" name="" >
-        <button id="submit">Add Item</button>
+        <input id="add-list" type="" name="subject" >
+        <input id="add-list" type="" name="content" >
+        <select name="category" id="category">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <button id="submit">Add Note</button>
     </form>
-    <ul id="list">
-        
-    </ul>
+
+    <div class="task-container">
+        <ul id="list">
+            
+        </ul>
+    </div>
 
 
 
