@@ -13,25 +13,43 @@
     </style>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>EZ-Task</title>
+     <title>✏️EZ-Task</title>
      <link rel="stylesheet" href="./css/styles.css">
      <script type="text/javascript" src="./src/index.js" charset="utf-8"></script>
- </head>
- <body>
-    
-    
-    <h1 id="ez-task">EZ Task</h1> 
-    <button class="seeNotes">View Tasks 👀</button>
 
-     <div class='weather'>
-             <!-- weather widget start --><a target="_blank" href="https://www.booked.net/weather/new-york-18103"><img src="https://w.bookcdn.com/weather/picture/1_18103_0_1_137AE9_218_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=5611"  alt="booked.net"/></a><!-- weather widget end -->
+     
+ </head>
+
+
+ <body>
+     
+   
+
+    <!-- <div 
+       
+    </div> -->
+    <div>
+    
+       </div>
+
+    <h1 id="ez-task">EZ Task</h1> 
+    <div class="viewTasks"></div>
+       <button class="seeNotes"> View Tasks  </button>
+    </div>
+    <div class="hideDiv" >
+       <button class="hideNotes">Hide Tasks  </button>
+    </div>
+    <div class="showTaskForm" >
+        <button class="seeForm"> Add New Task  </button>
      </div>
+
+     
      
     <div class="taskCont">
         <form class="task-form"> 
             <input id="add-list" type="text" name="subject" placeholder="Enter Subject" ><br>
             <input id="add-list" type="text" name="content" placeholder="Enter Task"><br>
-            <button id="submit">Add Task</button>
+            <button id="submit">Add Task </button>
         </form><br>
     </div>
     <div class="edit-container">
@@ -49,6 +67,47 @@
             
         </ul>
     </div>
+    
+<a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/?unit=us" data-label_1="NEW YORK" data-label_2="Hello!" data-icons="Climacons" data-mode="Current" data-days="3" data-textcolor="#f3efef" >NEW YORK Hello!</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+
+    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "proName": "FOREXCOM:SPXUSD",
+        "title": "S&P 500"
+      },
+      {
+        "proName": "FOREXCOM:NSXUSD",
+        "title": "Nasdaq 100"
+      },
+      {
+        "proName": "FX_IDC:EURUSD",
+        "title": "EUR/USD"
+      },
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "BTC/USD"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "ETH/USD"
+      }
+    ],
+    "colorTheme": "dark",
+    "isTransparent": true,
+    "displayMode": "adaptive",
+    "locale": "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
 
 
 

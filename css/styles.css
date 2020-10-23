@@ -28,6 +28,7 @@
       margin: 0;
       padding: 0;
       list-style-type: none;
+      
   }
   li {
       margin: 50;
@@ -46,6 +47,11 @@
       font-weight: bold;
       font-size: 25px;
       box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.966);
+      
+  }
+
+  li:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   div {
       display: inline-block;
@@ -89,6 +95,7 @@
     justify-content: space-around;
     padding: 100px;
     margin: unset;
+    
   }
 
   .delete{
@@ -116,9 +123,13 @@
   #ez-task{
   text-align: center;
   font-weight: bold;
-  color: beige; 
+  color: rgb(247, 247, 231); 
   font-family: 'Dancing Script', cursive;
-  font-size: 80px;
+  font-size: 100px;
+  font-weight: bold;
+  /* top: 20;  */
+  /* margin: 0;   */
+  /* position: fixed;  */
   }
 
   .edit-form {
@@ -130,13 +141,45 @@
 
   .task-form {
     opacity: .8;
+    display: none;
   }
 
   .seeNotes {
     position: absolute;
-    top: 315px;
-    right: 600px;
     cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    top: 350px;
+    right: 800px;
+  }
+
+  .seeNotes:hover{
+    transition: 1s;
+    background-color: grey;
+  }
+
+  .hideDiv {
+    position: absolute;
+    cursor: pointer;
+    font-size: 15px;
+    top: 320px;
+    right: 400px;
+    /* visibility: hidden; */
+  }
+
+  .seeForm{
+    position: absolute;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    top: 345px;
+    right: 580px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .seeForm:hover{
+    transition: 1s;
+    background-color: grey;
   }
 
   #submit{
@@ -148,12 +191,30 @@
 
   }
 
-  .weather {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-
+  .hideNotes {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .hideNotes:hover{
+    transition: 1s;
+    background-color: grey;
   }
 
-  
+  /* .weather{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    opacity: .9;
+    
 
+  } */
+
+  /* .weatherwidget-io{
+
+    position: absolute;
+    top: 50px;
+    bottom: 100px;
+  } */
+
+ 
