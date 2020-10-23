@@ -1,27 +1,48 @@
  <!DOCTYPE html>
+ 
  <html lang="en">
  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;1000&family=Euphoria+Script&family=Pacifico&display=swap" rel="stylesheet">
     <style>
+        
         body  {
-          background-image: url("https://c1.wallpaperflare.com/preview/157/959/581/wood-board-structure-world.jpg");
+          background-image: url("https://img4.goodfon.com/wallpaper/nbig/d/e5/listia-leaves-texture-fon-wood-doski-derevo-1.jpg");
           background-color: #cccccc;
+          
         }
     </style>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>EZ-Task </title>
-     <link href="https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap" rel="stylesheet">
+     <title>EZ-Task</title>
      <link rel="stylesheet" href="./css/styles.css">
      <script type="text/javascript" src="./src/index.js" charset="utf-8"></script>
  </head>
  <body>
+    
+    
+    <h1 id="ez-task">EZ Task</h1> 
+    <button class="seeNotes">View Tasks 👀</button>
 
-           <h1 class="ez-task">EZ TASK</h1>
-    <form class="task-form"> 
-        <input id="add-list" type="text" name="subject" placeholder="Enter Subject" ><br>
-        <input id="add-list" type="text" name="content" placeholder="Enter Task"><br>
-        <button id="submit">Add Note</button>
-    </form>
+     <div class='weather'>
+             <!-- weather widget start --><a target="_blank" href="https://www.booked.net/weather/new-york-18103"><img src="https://w.bookcdn.com/weather/picture/1_18103_0_1_137AE9_218_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=2&domid=w209&anc_id=5611"  alt="booked.net"/></a><!-- weather widget end -->
+     </div>
+     
+    <div class="taskCont">
+        <form class="task-form"> 
+            <input id="add-list" type="text" name="subject" placeholder="Enter Subject" ><br>
+            <input id="add-list" type="text" name="content" placeholder="Enter Task"><br>
+            <button id="submit">Add Task</button>
+        </form><br>
+    </div>
+    <div class="edit-container">
+        <form class="edit-form">
+            <input id="edit-task" type="text" name="subject"><br>
+            <input id="edit-task" type="text" name="content"><br>
+            <button id="update-note">Update Task</button>
+        </form><br>
+    </div>
+    
+    
 
     <div class="task-container">
         <ul id="list">
@@ -34,3 +55,8 @@
      
  </body>
  </html>
+
+
+
+
+ 

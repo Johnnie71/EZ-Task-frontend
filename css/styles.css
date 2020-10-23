@@ -1,6 +1,8 @@
-body {
-    font-family: Helvetica;
-}
+/* body {
+  
+  font-family: 'Euphoria Script', cursive;
+  
+} */
 
     /* {
         box-sizing: border-box;
@@ -11,37 +13,43 @@ body {
       font-size: 15px;
       padding: 2px;
   }
-  button {
+  /* button {
     background-color: #555;
     font-weight: bold;
-    height: 31px;
+    height: 15px;
     color: white;
-    width: 100px;
+    width: 15px;
     border-radius: 2px solid red;
     text-transform: uppercase;
     vertical-align: top;
-  }
-  ul {
+  } */
+ 
+    ul {
       margin: 0;
       padding: 0;
       list-style-type: none;
   }
   li {
-      margin: 0;
+      margin: 50;
       padding: 3px 5px;
-      height: 100px;
-      background: #cc3300;
-      color: white;
-      border-radius: 3px;
+      height: 200px;
+      width: 200px;
+      background: #dfe286;
+      color: rgb(36, 31, 31);
+      border-radius: 5px;
       display: inline-block;
       position: relative;
-      margin: 5px 0 0 5px;
+      margin: 30px 0 0 30px;
       word-wrap: initial;
-      width: 100px;
       vertical-align: top;
+      font-family: 'Dancing Script', cursive;
+      font-weight: bold;
+      font-size: 25px;
+      box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.966);
   }
   div {
       display: inline-block;
+      margin-top: 30px;
   }
   .item {
       width: 100%;
@@ -57,7 +65,7 @@ body {
   html {
     height: 100%;
     width: 100%;
-    font-family: "Titillium Web", sans-serif;
+    /* font-family: "Titillium Web", sans-serif; */
   }
 
   /* body {
@@ -67,13 +75,12 @@ body {
   } */
 
   .task-div {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 50%;
-    background-color: rgba(238, 209, 44, 0.932);
     padding: 10pix;
-    margin: 50pix;
+    margin: 10pix;
     text-align: center;
+    display: inline;
   }
 
   .task-container{
@@ -81,20 +88,72 @@ body {
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 100px;
+    margin: unset;
   }
 
   .delete{
-    background-color: none;
-    border: none;
-    border-radius: 50px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 10px;
-    margin: 4px 2px;
+    font-weight: bold;
+    padding: 2px 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+    cursor: pointer;
+    margin: 0px;
+
+  }
+
+  .edit{
+    font-weight: bold;
+    padding: 2px 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black;
+    cursor: pointer
+  }
+
+  #ez-task{
+  text-align: center;
+  font-weight: bold;
+  color: beige; 
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  }
+
+  .edit-form {
+    width: stretch;
+    height: auto;
+    display: none;
+    opacity: .8;
+  }
+
+  .task-form {
+    opacity: .8;
+  }
+
+  .seeNotes {
+    position: absolute;
+    top: 315px;
+    right: 600px;
     cursor: pointer;
   }
 
-  .ez-task {
-    text-align: center;
-    font-size: 65px;
+  #submit{
+    cursor: pointer;
   }
+
+  #update-note {
+    cursor: pointer;
+
+  }
+
+  .weather {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+  }
+
+  
+
