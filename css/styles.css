@@ -100,13 +100,13 @@
 
   .delete{
     font-weight: bold;
-    padding: 2px 5px;
+    padding: 5px 5px;
     position: absolute;
     top: 0;
     right: 0;
     color: black;
     cursor: pointer;
-    margin: 0px;
+    margin: 1px;
 
   }
 
@@ -154,8 +154,9 @@
   }
 
   .seeNotes:hover{
-    transition: 1s;
     background-color: grey;
+    transition: .5s;
+    border-color: ivory;
   }
 
   .hideDiv {
@@ -178,8 +179,9 @@
   }
 
   .seeForm:hover{
-    transition: 1s;
     background-color: grey;
+    transition: .5s;
+    border-color: ivory;
   }
 
   #submit{
@@ -197,8 +199,9 @@
     cursor: pointer;
   }
   .hideNotes:hover{
-    transition: 1s;
     background-color: grey;
+    transition: .5s;
+    border-color: ivory;
   }
 
   /* .weather{
