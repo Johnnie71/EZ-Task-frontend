@@ -1,6 +1,6 @@
 EZ-Task
 
-An clean simple application intended to serve as an extension of a desktop. With the funcionality of organization in a posted notes format. 
+An clean simple application intended to serve as an extension of a desktop. With the functionality of organization in a posted notes format. 
 
 Features
 
