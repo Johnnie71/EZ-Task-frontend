@@ -1,5 +1,6 @@
 EZ-Task
 
+![Demo](https://media.giphy.com/media/jzMbTCHMbWgoHh2F9P/giphy.gif)
 An clean simple application intended to serve as an extension of a desktop. With the functionality of organization in a posted notes format. 
 
 Features
@@ -8,8 +9,9 @@ A user can create a note, edit, and delete notes. As well show or hide notes for
 
 Technologies Used
 
-Ruby on Rails
-Vanilla JavaScript
+--Active Record
+--Ruby on Rails
+--Vanilla JavaScript
 
 Design
 
