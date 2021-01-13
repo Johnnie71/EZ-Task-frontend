@@ -1,8 +1,6 @@
 EZ-Task
 
-![GIF DEMO](EZ-Task-Gif.gif)
-
-
+![GIF DEMO](gif/EZ-Task-Gif.gif)
 
 
 An clean simple application intended to serve as an extension of a desktop. With the functionality of organization in a posted notes format. 
