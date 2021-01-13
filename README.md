@@ -1,6 +1,6 @@
 EZ-Task
 
-![GIF DEMO](EZ-Task Gif.gif)
+![GIF DEMO](EZ-Task-Gif.gif)
 
 
 
