@@ -1,7 +1,7 @@
 EZ-Task
 
-![GIF DEMO](EZ-Task-frontend/gif/EZ-Task Gif.gif)
-<img alt="Demo Gif" src="https://media.giphy.com/media/jzMbTCHMbWgoHh2F9P/giphy.gif" width="300"/>
+![GIF DEMO](EZ-Task Gif.gif)
+
 
 
 
