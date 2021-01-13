@@ -1,6 +1,6 @@
 EZ-Task
 
-<img alt="Demo Gif" src="https://media.giphy.com/media/jzMbTCHMbWgoHh2F9P/giphy.gif">
+![Imgur Image](https://media.giphy.com/media/jzMbTCHMbWgoHh2F9P/giphy.gif)
 
 An clean simple application intended to serve as an extension of a desktop. With the functionality of organization in a posted notes format. 
 
