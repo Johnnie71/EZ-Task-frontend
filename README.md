@@ -1,7 +1,9 @@
 EZ-Task
 
-![GIF DEMO](https://giphy.com/gifs/jzMbTCHMbWgoHh2F9P/html5)
+![GIF DEMO](EZ-Task-frontend/gif/EZ-Task Gif.gif)
 <img alt="Demo Gif" src="https://media.giphy.com/media/jzMbTCHMbWgoHh2F9P/giphy.gif" width="300"/>
+
+
 
 An clean simple application intended to serve as an extension of a desktop. With the functionality of organization in a posted notes format. 
 
