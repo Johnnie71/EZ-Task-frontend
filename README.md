@@ -1,4 +1,4 @@
-EZ-Task
+## EZ-Task
 
 ![GIF DEMO](gif/EZ-GIF.gif)
 
