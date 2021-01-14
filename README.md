@@ -1,4 +1,4 @@
-## EZ-Task
+# EZ-Task
 
 ![GIF DEMO](gif/EZ-GIF.gif)
 
@@ -11,9 +11,9 @@ A user can create a note, edit, and delete notes. As well show or hide notes for
 
 ## Technologies Used
 
--Active Record
--Ruby on Rails
--Vanilla JavaScript
+* Active Record
+* Ruby on Rails
+* Vanilla JavaScript
 
 ## Design
 
