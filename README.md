@@ -7,6 +7,8 @@ For our mod3 project my partner and I, Seyi. We decided to try and make an appli
 
 ## Features 💡
 
+![Note Taking](https://media.giphy.com/media/nGtOFccLzujug/giphy.gif)
+
 A user can create a note, edit, and delete notes. As well show or hide notes for visible security. Notes are organized alphabetically by subject.
 
 ## Technologies Used 🛠
